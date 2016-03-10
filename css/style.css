@@ -2,7 +2,7 @@ body {
 	background-color: #eeeeee;
 	font-family: helvetica, arial, sans-serif; 
 	margin: 0;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 }
 
 nav {
@@ -103,10 +103,11 @@ article header img {
 
 }
 
-h1{
+article h1{
 	font-family: 'Crete Round', serif;
 	font-size: xx-large; 
 	font-weight: 400px; /*600 default*/ 
+	margin-top: -20; ;	
 }
 
 article h1 a {
@@ -140,3 +141,23 @@ article footer{
 	border-top: 1px solid #dddddd;
 
 }
+
+.badge {
+	background-color: #333333;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	border: 6px solid white;
+	position: relative;
+	bottom: 36px ;
+	margin: auto;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+}
+
+.badge i {
+	color: #ffffff;
+	line-height: 60px;
+	font-size: 25px;
+}
+
